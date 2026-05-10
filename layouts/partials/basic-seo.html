@@ -1,0 +1,3 @@
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.metadata.description }}{{ . }}{{ end }}{{ end }}">
+<meta name="author" content="{{ site.Params.metadata.author }}">
+<meta name="keywords" content="{{ delimit site.Params.metadata.keywords `, ` }}">

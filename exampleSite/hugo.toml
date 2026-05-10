@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "/"
-title = "Bigspring Light"
+title = "BlueWheel Marketing"
 theme = "bigspring-light-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "America/New_York"
@@ -28,6 +28,10 @@ target = "assets"
 [[module.mounts]]
 source = "hugo_stats.json"
 target = "assets/watching/hugo_stats.json"
+
+# Hugo modules disabled — stub partials in /layouts provide replacements.
+# module.toml and go.mod renamed to .bak to avoid Go dependency.
+# Blog/faq content moved to _backup_content/ (required module shortcodes).
 
 
 ############################# Build ##############################

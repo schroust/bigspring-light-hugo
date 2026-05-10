@@ -13,5 +13,10 @@ resources
 .hugo_build.lock
 jsconfig.json
 
+# backup and temp
+_backup_content/
+*.bak
+.trae/
+
 go.sum
 yarn.lock

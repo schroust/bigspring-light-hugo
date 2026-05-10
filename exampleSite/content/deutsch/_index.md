@@ -1,48 +1,48 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Lassen Sie uns Ihre kritischen Herausforderungen bei der Website <br> Entwicklung lösen"
+  title : "Wachsen Sie Ihre Marke mit strategischem <br> digitalen Marketing"
   image : "images/banner-art.svg"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus"
+  content : "BlueWheel Marketing liefert datengesteuerte SEO-, Branding- und Wachstumslösungen, <br> damit Ihr Unternehmen in der digitalen Landschaft erfolgreich ist."
   button:
     enable : true
-    label : "Contact Us"
+    label : "Kontaktieren Sie uns"
     link : "contact/"
 
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Something You Need To Know"
+  title : "Was Sie wissen sollten"
   feature_item:
     # feature item loop
-    - name : "Clean Code"
-      icon : "fas fa-code"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name : "SEO-Strategie"
+      icon : "fas fa-search"
+      content : "Erreichen Sie höhere Rankings und steigern Sie den organischen Traffic."
       
     # feature item loop
-    - name : "Object Oriented"
-      icon : "fas fa-object-group"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name : "Markenidentität"
+      icon : "fas fa-paint-brush"
+      content : "Bauen Sie eine einprägsame Marke auf, die Ihre Zielgruppe anspricht."
       
     # feature item loop
-    - name : "24h Service"
+    - name : "24h-Support"
       icon : "fas fa-user-clock"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Rund-um-die-Uhr-Support, damit Ihre Kampagnen reibungslos laufen."
       
     # feature item loop
-    - name : "Value For Money"
-      icon : "fas fa-heart"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name : "Datengesteuert"
+      icon : "fas fa-chart-line"
+      content : "Jede Entscheidung basiert auf Analysen — keine Rätselraten, nur Ergebnisse."
       
     # feature item loop
-    - name : "Faster Response"
+    - name : "Schnelle Umsetzung"
       icon : "fas fa-tachometer-alt"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Agile Workflows sorgen dafür, dass Ihre Projekte pünktlich starten."
       
     # feature item loop
-    - name : "Cloud Support"
-      icon : "fas fa-cloud"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name : "Globale Reichweite"
+      icon : "fas fa-globe"
+      content : "Mit Sitz in den USA helfen wir Marken weltweit zu skalieren."
       
 
 
@@ -51,45 +51,45 @@ service:
   enable : true
   service_item:
     # service item loop
-    - title : "It is the most advanced digital marketing and it company."
+    - title : "Umfassende digitale Marketinglösungen für Ihr Unternehmen."
       images:
       - "images/service-1.png"
       - "images/service-2.png"
       - "images/service-3.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      content : "Von SEO und Paid Media bis hin zu Content-Marketing und Markenstrategie: BlueWheel Marketing bietet End-to-End-Dienstleistungen für messbares Wachstum."
       button:
         enable : true
-        label : "Check it out"
+        label : "Mehr erfahren"
         link : "#"
         
     # service item loop
-    - title : "It is a privately owned Information and cyber security company"
+    - title : "Ein Team aus erfahrenen Marketing- und Branding-Experten"
       images:
       - "images/service-1.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      content : "Unser Team vereint Expertise von führenden Agenturen und globalen Marken. Wir kombinieren kreatives Denken mit analytischer Präzision."
       button:
         enable : true
-        label : "Check it out"
+        label : "Mehr erfahren"
         link : "#"
         
     # service item loop
-    - title : "It’s a team of experienced and skilled people with distributions"
+    - title : "Agiler, transparenter und ergebnisorientierter Ansatz"
       images:
       - "images/service-2.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      content : "Wir setzen auf volle Transparenz. Von wöchentlichen Berichten bis zu Echtzeit-Dashboards behalten Sie stets den Überblick."
       button:
         enable : true
-        label : "Check it out"
+        label : "Mehr erfahren"
         link : "#"
         
     # service item loop
-    - title : "A company standing different from others"
+    - title : "Vertraut von Startups und Unternehmen in Nordamerika"
       images:
       - "images/service-3.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      content : "Mit Hauptsitz in den USA betreuen wir Kunden vom Early-Stage-Startup bis zum etablierten Unternehmen. Unsere Marktexpertise gibt Ihrer Marke einen Wettbewerbsvorteil."
       button:
         enable : true
-        label : "Check it out"
+        label : "Mehr erfahren"
         link : "#"
         
 ################### Screenshot ########################
@@ -103,11 +103,11 @@ screenshot:
 ##################### Call to action #####################
 call_to_action:
   enable : true
-  title : "Ready to get started?"
+  title : "Bereit, Ihre Marke auszubauen?"
   image : "images/cta.svg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+  content : "Lassen Sie BlueWheel Marketing eine erfolgreiche Strategie für Ihr Unternehmen entwickeln. Kontaktieren Sie uns noch heute."
   button:
     enable : true
-    label : "Contact Us"
+    label : "Kontaktieren Sie uns"
     link : "contact/"
 ---

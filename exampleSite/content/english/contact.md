@@ -8,11 +8,10 @@ layout: "contact"
 ---
 
 
-#### Why you should contact us!
+#### Get in touch with BlueWheel Marketing
 
+Whether you need a complete digital strategy or a single campaign, we are here to help. Reach out and let's discuss how we can grow your brand together.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
-
-* **Phone: +88 125 256 452** 
-* **Mail: info@bigspring.com**
-* **Address: 360 Main rd, Rio, Brazil**
+* **Phone: +1 (213) 555-0198** 
+* **Mail: {{< param email >}}** 
+* **Address: United States**

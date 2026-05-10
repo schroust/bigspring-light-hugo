@@ -68,7 +68,7 @@ call_to_action:
   enable : true
   title : "Brauchen Sie einen größeren Plan?"
   image : "images/cta.svg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+  content : "Benötigen Sie eine maßgeschneiderte Marketinglösung? Lassen Sie BlueWheel Marketing einen Plan entwerfen, der perfekt zu Ihrem Unternehmen passt."
   button:
     enable : true
     label : "Contact Us"

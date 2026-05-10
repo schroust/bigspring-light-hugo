@@ -54,9 +54,7 @@
 {{ $tailwindOpts := dict "inlineImports" true }}
 {{ $tailwindCSS := $mainCSS | css.TailwindCSS $tailwindOpts }}
 
-{{ $styles = $styles | append $tailwindCSS }}
-{{ $styles = $styles | resources.Concat "css/style.css" }}
-
+{{ $styles = $tailwindCSS }}
 
 {{ if hugo.IsProduction }}
   {{ $styles = $styles | fingerprint }}

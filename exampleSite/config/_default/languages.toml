@@ -1,7 +1,7 @@
 ################################### English language #####################################
 [en]
-languageName = "EN"
-languageCode = "en-US"
+label = "EN"
+locale = "en-US"
 contentDir = "content/english"
 weight = 1
 [en.params]
@@ -9,13 +9,13 @@ weight = 1
 footer_menu_left = "Company"
 footer_menu_middle = "Products"
 footer_menu_right = "Support"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit consjat tristique eget amet."
+footer_content = "BlueWheel Marketing — Your partner in digital growth. Based in the United States, serving clients worldwide."
 
 
 ################################### Deutsch language #####################################
 [de]
-languageName = "DE"
-languageCode = "de-DE"
+label = "DE"
+locale = "de-DE"
 contentDir = "content/deutsch"
 weight = 2
 [de.params]
@@ -23,5 +23,4 @@ weight = 2
 footer_menu_left = "Firma"
 footer_menu_middle = "Produkte"
 footer_menu_right = "Support"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit consjat tristique eget amet."
-
+footer_content = "BlueWheel Marketing — Ihr Partner für digitales Wachstum. Mit Sitz in den USA, weltweit für Kunden tätig."

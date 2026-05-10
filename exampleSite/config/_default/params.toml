@@ -9,7 +9,7 @@ logo_width = "180px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Bigspring"
+logo_text = "BlueWheel Marketing"
 # Main Sections
 mainSections = ["blog"]
 # contact form action
@@ -24,7 +24,10 @@ google_tag_manager = "" # example: G-XXXXXXXXXX
 custom_script = ""
 # copyright
 theme_copyright = true
-copyright = "Copyright by your company"
+theme_credit_text = "GetHugoThemes"
+theme_credit_url = "https://gethugothemes.com/"
+copyright = "Copyright © 2026 BlueWheel Marketing. All rights reserved."
+email = "admin@bluewheel.com"
 
 # preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -48,9 +51,9 @@ crisp_website_id = "9aa449e1-9999-422a-938f-8567982eec6d" # replace this code wi
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["Hugo", "Themefisher", "Gethugothemes"]
-description = "This is meta description"
-author = "Gethugothemes"
+keywords = ["Marketing", "Digital Marketing", "SEO", "Branding", "BlueWheel Marketing", "USA"]
+description = "BlueWheel Marketing — Your trusted digital marketing agency in the USA. We deliver SEO, branding and growth strategies."
+author = "BlueWheel Marketing"
 image = "images/logo.png"                           # this image will be used as fallback if a page has no image of its own
 
 # matomo tracking: see https://matomo.org/
@@ -99,24 +102,19 @@ button = "I Accept"
 [[social]]
 title = "facebook"
 icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://facebook.com/bluewheelmarketing"
 
 [[social]]
 title = "twitter"
 icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://twitter.com/bluewheelmktg"
 
 [[social]]
 title = "instagram"
 icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
-
-[[social]]
-title = "github"
-icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://instagram.com/bluewheelmarketing"
 
 [[social]]
 title = "linkedin"
 icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://linkedin.com/company/bluewheelmarketing"

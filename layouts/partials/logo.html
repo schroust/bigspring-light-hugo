@@ -1,22 +1,23 @@
 {{ $logo := site.Params.logo }}
 {{ $logoWebP := site.Params.logo_webp }}
-{{ $logoWidth := site.Params.logo_width }}
+{{ $logoWidthStr := site.Params.logo_width | default "180x" }}
+{{ $logoWidthNum := replace $logoWidthStr "px" "" }}
 {{ $logoText := site.Params.logo_text }}
 
 {{ if $logo }}
   {{ $image := resources.Get $logo }}
   {{ if $image }}
     {{ if and $logoWebP (ne $image.MediaType.SubType "svg") }}
-      {{ $imageWebP := $image.Resize (printf "%x webp" $logoWidth) }}
+      {{ $imageWebP := $image.Resize (printf "%sx webp" $logoWidthNum) }}
       <picture>
         <source srcset="{{ $imageWebP.RelPermalink }}" type="image/webp">
-        <img src="{{ $image.RelPermalink }}" alt="{{ site.Title }}" width="{{ $logoWidth }}" style="max-width: {{ $logoWidth }};">
+        <img src="{{ $image.RelPermalink }}" alt="{{ site.Title }}" width="{{ $logoWidthStr }}" style="max-width: {{ $logoWidthStr }};">
       </picture>
     {{ else }}
-      <img src="{{ $image.RelPermalink }}" alt="{{ site.Title }}" width="{{ $logoWidth }}" style="max-width: {{ $logoWidth }};">
+      <img src="{{ $image.RelPermalink }}" alt="{{ site.Title }}" width="{{ $logoWidthStr }}" style="max-width: {{ $logoWidthStr }};">
     {{ end }}
   {{ else }}
-    <img src="{{ $logo | relURL }}" alt="{{ site.Title }}" width="{{ $logoWidth }}" style="max-width: {{ $logoWidth }};">
+    <img src="{{ $logo | relURL }}" alt="{{ site.Title }}" width="{{ $logoWidthStr }}" style="max-width: {{ $logoWidthStr }};">
   {{ end }}
 {{ else }}
   <span class="h5">{{ $logoText }}</span>
