@@ -1,4 +1,9 @@
 {{ $src := .Src }}
 {{ $alt := .Alt | default "" }}
 {{ $class := .Class | default "" }}
+{{ $resource := resources.Get $src | default (resources.Get (printf "images/%s" $src)) }}
+{{ if $resource }}
+<img src="{{ $resource.RelPermalink }}" alt="{{ $alt }}" class="{{ $class }}" loading="lazy" />
+{{ else }}
 <img src="{{ $src | relURL }}" alt="{{ $alt }}" class="{{ $class }}" loading="lazy" />
+{{ end }}
