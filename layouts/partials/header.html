@@ -43,7 +43,7 @@
       <li class="nav-item">
         <select class="py-4 font-primary text-base font-bold text-text-dark transition hover:text-primary border-0 bg-transparent cursor-pointer" aria-label="Select language" onchange="location = this.value;">
           {{ range site.Languages }}
-          <option value="{{ .Lang | relLangURL }}" {{ if eq . $.Site.Language }}selected{{ end }}>{{ .Label }}</option>
+          <option value="{{ .Lang | relLangURL }}" {{ if eq . $.Site.Language }}selected{{ end }}>{{ .Lang | upper }}</option>
           {{ end }}
         </select>
       </li>
